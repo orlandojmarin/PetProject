@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module main</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>main</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/Users/orlandomarin/NetBeansProjects/PetProject/main.py">/Users/orlandomarin/NetBeansProjects/PetProject/main.py</a></font></td></tr></table>
+    <p><tt>Name:&nbsp;Orlando&nbsp;Marin<br>
+Class:&nbsp;Data&nbsp;Structures&nbsp;-&nbsp;CSC&nbsp;212<br>
+&nbsp;<br>
+You&nbsp;must&nbsp;use&nbsp;Classes&nbsp;and&nbsp;Objects&nbsp;to&nbsp;implement&nbsp;this&nbsp;project.&nbsp;The&nbsp;objective&nbsp;of&nbsp;<br>
+Project&nbsp;3&nbsp;is&nbsp;to&nbsp;create&nbsp;a&nbsp;Pet&nbsp;class,&nbsp;read&nbsp;data&nbsp;from&nbsp;a&nbsp;text&nbsp;file,&nbsp;create&nbsp;objects&nbsp;<br>
+and&nbsp;populate&nbsp;the&nbsp;data&nbsp;attributes&nbsp;and&nbsp;output&nbsp;the&nbsp;fields&nbsp;using&nbsp;the&nbsp;class’s&nbsp;<br>
+mutator,&nbsp;accessor&nbsp;and&nbsp;__str__(&nbsp;)&nbsp;methods.<br>
+&nbsp;<br>
+Create&nbsp;a&nbsp;class&nbsp;named&nbsp;Pet,&nbsp;which&nbsp;should&nbsp;have&nbsp;the&nbsp;following&nbsp;private&nbsp;data&nbsp;<br>
+attributes:<br>
+•&nbsp;__petName&nbsp;(the&nbsp;name&nbsp;of&nbsp;the&nbsp;pet&nbsp;as&nbsp;a&nbsp;single&nbsp;string)<br>
+•&nbsp;__petSpecies&nbsp;(commonly&nbsp;known&nbsp;species&nbsp;name)<br>
+•&nbsp;__petFamilyType&nbsp;(the&nbsp;family&nbsp;type&nbsp;of&nbsp;animal&nbsp;that&nbsp;the&nbsp;pet&nbsp;is.&nbsp;Example<br>
+values&nbsp;are&nbsp;‘dog’,&nbsp;‘cat’,&nbsp;‘bird’,&nbsp;‘snake,&nbsp;‘fish’&nbsp;and&nbsp;‘insect’)<br>
+•&nbsp;__petOwnerName&nbsp;(owner’s&nbsp;name&nbsp;as&nbsp;a&nbsp;single&nbsp;string)<br>
+&nbsp;<br>
+The&nbsp;Pet&nbsp;class&nbsp;should&nbsp;have&nbsp;an&nbsp;__init__(&nbsp;)&nbsp;method&nbsp;that&nbsp;initializes&nbsp;these&nbsp;<br>
+attributes.<br>
+This&nbsp;__init__&nbsp;method&nbsp;can&nbsp;assign&nbsp;the&nbsp;values&nbsp;directly&nbsp;or&nbsp;call&nbsp;mutator&nbsp;methods&nbsp;to&nbsp;<br>
+assign&nbsp;the&nbsp;values.<br>
+&nbsp;<br>
+The&nbsp;Pet&nbsp;class&nbsp;should&nbsp;also&nbsp;have&nbsp;the&nbsp;following&nbsp;methods:<br>
+Mutator&nbsp;methods:<br>
+•&nbsp;set_Name&nbsp;–&nbsp;assigns&nbsp;a&nbsp;value&nbsp;to&nbsp;the&nbsp;__petName&nbsp;field<br>
+•&nbsp;set_Species&nbsp;–&nbsp;assigns&nbsp;a&nbsp;value&nbsp;to&nbsp;the&nbsp;__petSpecies&nbsp;field<br>
+•&nbsp;set_Family_Type&nbsp;–&nbsp;assigns&nbsp;a&nbsp;value&nbsp;to&nbsp;the&nbsp;__petFamilyType&nbsp;field<br>
+•&nbsp;set_Owner&nbsp;–&nbsp;assigns&nbsp;a&nbsp;value&nbsp;to&nbsp;the&nbsp;__petOwnerName&nbsp;field<br>
+&nbsp;<br>
+Accessor&nbsp;methods:<br>
+•&nbsp;get_Name&nbsp;–&nbsp;returns&nbsp;the&nbsp;value&nbsp;of&nbsp;__petName&nbsp;field<br>
+•&nbsp;get_Species&nbsp;–&nbsp;returns&nbsp;the&nbsp;value&nbsp;of&nbsp;__petSpecies&nbsp;field<br>
+•&nbsp;get_Family_Type&nbsp;–&nbsp;returns&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;__petFamilyType&nbsp;field<br>
+•&nbsp;get_owner&nbsp;–&nbsp;returns&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;__petOwnerName&nbsp;field<br>
+&nbsp;<br>
+Also&nbsp;create&nbsp;a&nbsp;__str__(&nbsp;)&nbsp;method&nbsp;to&nbsp;call&nbsp;the&nbsp;accessor&nbsp;methods&nbsp;and&nbsp;output&nbsp;the&nbsp;<br>
+data&nbsp;fields&nbsp;in&nbsp;the&nbsp;object.<br>
+&nbsp;<br>
+Please&nbsp;store&nbsp;the&nbsp;class&nbsp;definition&nbsp;in&nbsp;a&nbsp;different&nbsp;file&nbsp;from&nbsp;the&nbsp;application&nbsp;<br>
+program.<br>
+&nbsp;<br>
+To&nbsp;develop&nbsp;the&nbsp;application&nbsp;program,&nbsp;the&nbsp;attached&nbsp;text&nbsp;data&nbsp;file&nbsp;contains&nbsp;data&nbsp;<br>
+you&nbsp;can&nbsp;use&nbsp;to&nbsp;create&nbsp;Pet&nbsp;objects.&nbsp;Each&nbsp;data&nbsp;line&nbsp;corresponds&nbsp;to&nbsp;data&nbsp;for&nbsp;a&nbsp;<br>
+Pet&nbsp;object,&nbsp;given&nbsp;in&nbsp;the&nbsp;format:&nbsp;pet&nbsp;name,&nbsp;pet&nbsp;species,&nbsp;pet&nbsp;family&nbsp;type,&nbsp;and&nbsp;<br>
+owner’s&nbsp;name.&nbsp;&nbsp;There&nbsp;are&nbsp;9&nbsp;lines&nbsp;of&nbsp;data&nbsp;for&nbsp;9&nbsp;pet&nbsp;objects.<br>
+&nbsp;<br>
+As&nbsp;a&nbsp;first&nbsp;phase,&nbsp;develop&nbsp;the&nbsp;application&nbsp;program&nbsp;is&nbsp;to&nbsp;take&nbsp;the&nbsp;data&nbsp;from&nbsp;the&nbsp;<br>
+text&nbsp;file&nbsp;and&nbsp;to&nbsp;create&nbsp;and&nbsp;output&nbsp;the&nbsp;content&nbsp;of&nbsp;the&nbsp;9&nbsp;pet&nbsp;objects.&nbsp;This&nbsp;<br>
+ensures&nbsp;that&nbsp;the&nbsp;class&nbsp;definition&nbsp;and&nbsp;application&nbsp;are&nbsp;written&nbsp;correctly&nbsp;before&nbsp;<br>
+you&nbsp;go&nbsp;to&nbsp;the&nbsp;next&nbsp;step.<br>
+&nbsp;<br>
+As&nbsp;a&nbsp;second&nbsp;phase,&nbsp;redesign&nbsp;your&nbsp;application&nbsp;program&nbsp;to&nbsp;use&nbsp;a&nbsp;list&nbsp;of&nbsp;objects&nbsp;<br>
+as&nbsp;your&nbsp;data&nbsp;structure.&nbsp;Instead&nbsp;of&nbsp;reading&nbsp;the&nbsp;text&nbsp;data&nbsp;into&nbsp;various&nbsp;pet&nbsp;<br>
+objects,&nbsp;build&nbsp;them&nbsp;into&nbsp;a&nbsp;list&nbsp;of&nbsp;pet&nbsp;objects.&nbsp;You&nbsp;should&nbsp;be&nbsp;able&nbsp;to&nbsp;use&nbsp;the&nbsp;<br>
+same&nbsp;Pet&nbsp;class&nbsp;definition.&nbsp;<br>
+&nbsp;<br>
+Demonstrate&nbsp;how&nbsp;you&nbsp;can&nbsp;achieve&nbsp;all&nbsp;the&nbsp;functionality&nbsp;<br>
+using&nbsp;this&nbsp;new&nbsp;data&nbsp;structure.&nbsp;Output&nbsp;the&nbsp;content&nbsp;of&nbsp;the&nbsp;list&nbsp;of&nbsp;pets.&nbsp;<br>
+&nbsp;<br>
+In&nbsp;addition,&nbsp;find&nbsp;all&nbsp;owner(s)&nbsp;with&nbsp;snake&nbsp;family&nbsp;type&nbsp;and&nbsp;insect&nbsp;family&nbsp;type&nbsp;<br>
+pets.&nbsp;Output&nbsp;their&nbsp;names&nbsp;and&nbsp;their&nbsp;respective&nbsp;pet's&nbsp;name.<br>
+You&nbsp;only&nbsp;need&nbsp;to&nbsp;show&nbsp;the&nbsp;second&nbsp;phase&nbsp;as&nbsp;your&nbsp;final&nbsp;submission.</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="petClass.html">petClass</a><br>
+</td><td width="25%" valign=top><a href="pydoc.html">pydoc</a><br>
+</td><td width="25%" valign=top></td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-main"><strong>main</strong></a>()</dt><dd><tt>The&nbsp;main&nbsp;function&nbsp;performs&nbsp;the&nbsp;following&nbsp;tasks:<br>
+&nbsp;<br>
+1.&nbsp;Opens&nbsp;and&nbsp;reads&nbsp;data&nbsp;from&nbsp;'petdata.txt',&nbsp;where&nbsp;each&nbsp;line&nbsp;represents&nbsp;a&nbsp;<br>
+pet's&nbsp;information.<br>
+2.&nbsp;Creates&nbsp;Pet&nbsp;objects&nbsp;using&nbsp;the&nbsp;data&nbsp;from&nbsp;each&nbsp;line,&nbsp;storing&nbsp;them&nbsp;in&nbsp;a&nbsp;<br>
+list&nbsp;(`petList`).<br>
+3.&nbsp;Outputs&nbsp;the&nbsp;names&nbsp;of&nbsp;owners&nbsp;who&nbsp;have&nbsp;pets&nbsp;from&nbsp;the&nbsp;'snake'&nbsp;and&nbsp;'insect'&nbsp;<br>
+family&nbsp;types,&nbsp;along&nbsp;with&nbsp;the&nbsp;pets'&nbsp;names.<br>
+4.&nbsp;Closes&nbsp;the&nbsp;input&nbsp;file&nbsp;after&nbsp;reading&nbsp;and&nbsp;processing&nbsp;all&nbsp;the&nbsp;data.<br>
+&nbsp;<br>
+Additionally,&nbsp;the&nbsp;program&nbsp;uses&nbsp;`pydoc`&nbsp;to&nbsp;generate&nbsp;documentation&nbsp;for&nbsp;the&nbsp;<br>
+`main`&nbsp;function.</tt></dd></dl>
+</td></tr></table>
+</body></html>

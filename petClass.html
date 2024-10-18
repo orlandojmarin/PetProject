@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module petClass</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>petClass</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/Users/orlandomarin/NetBeansProjects/PetProject/petClass.py">/Users/orlandomarin/NetBeansProjects/PetProject/petClass.py</a></font></td></tr></table>
+    <p><tt>You&nbsp;must&nbsp;use&nbsp;Classes&nbsp;and&nbsp;Objects&nbsp;to&nbsp;implement&nbsp;this&nbsp;project.&nbsp;The&nbsp;objective&nbsp;of&nbsp;<br>
+Project&nbsp;3&nbsp;is&nbsp;to&nbsp;create&nbsp;a&nbsp;<a href="#Pet">Pet</a>&nbsp;class,&nbsp;read&nbsp;data&nbsp;from&nbsp;a&nbsp;text&nbsp;file,&nbsp;create&nbsp;objects&nbsp;<br>
+and&nbsp;populate&nbsp;the&nbsp;data&nbsp;attributes&nbsp;and&nbsp;output&nbsp;the&nbsp;fields&nbsp;using&nbsp;the&nbsp;class’s&nbsp;<br>
+mutator,&nbsp;accessor&nbsp;and&nbsp;__str__(&nbsp;)&nbsp;methods.<br>
+&nbsp;<br>
+Create&nbsp;a&nbsp;class&nbsp;named&nbsp;<a href="#Pet">Pet</a>,&nbsp;which&nbsp;should&nbsp;have&nbsp;the&nbsp;following&nbsp;private&nbsp;data&nbsp;<br>
+attributes:<br>
+•&nbsp;__petName&nbsp;(the&nbsp;name&nbsp;of&nbsp;the&nbsp;pet&nbsp;as&nbsp;a&nbsp;single&nbsp;string)<br>
+•&nbsp;__petSpecies&nbsp;(commonly&nbsp;known&nbsp;species&nbsp;name)<br>
+•&nbsp;__petFamilyType&nbsp;(the&nbsp;family&nbsp;type&nbsp;of&nbsp;animal&nbsp;that&nbsp;the&nbsp;pet&nbsp;is.&nbsp;Example<br>
+values&nbsp;are&nbsp;‘dog’,&nbsp;‘cat’,&nbsp;‘bird’,&nbsp;‘snake,&nbsp;‘fish’&nbsp;and&nbsp;‘insect’)<br>
+•&nbsp;__petOwnerName&nbsp;(owner’s&nbsp;name&nbsp;as&nbsp;a&nbsp;single&nbsp;string)<br>
+&nbsp;<br>
+The&nbsp;<a href="#Pet">Pet</a>&nbsp;class&nbsp;should&nbsp;have&nbsp;an&nbsp;__init__(&nbsp;)&nbsp;method&nbsp;that&nbsp;initializes&nbsp;these&nbsp;<br>
+attributes.<br>
+This&nbsp;__init__&nbsp;method&nbsp;can&nbsp;assign&nbsp;the&nbsp;values&nbsp;directly&nbsp;or&nbsp;call&nbsp;mutator&nbsp;methods&nbsp;to&nbsp;<br>
+assign&nbsp;the&nbsp;values.<br>
+&nbsp;<br>
+The&nbsp;<a href="#Pet">Pet</a>&nbsp;class&nbsp;should&nbsp;also&nbsp;have&nbsp;the&nbsp;following&nbsp;methods:<br>
+Mutator&nbsp;methods:<br>
+•&nbsp;set_Name&nbsp;–&nbsp;assigns&nbsp;a&nbsp;value&nbsp;to&nbsp;the&nbsp;__petName&nbsp;field<br>
+•&nbsp;set_Species&nbsp;–&nbsp;assigns&nbsp;a&nbsp;value&nbsp;to&nbsp;the&nbsp;__petSpecies&nbsp;field<br>
+•&nbsp;set_Family_Type&nbsp;–&nbsp;assigns&nbsp;a&nbsp;value&nbsp;to&nbsp;the&nbsp;__petFamilyType&nbsp;field<br>
+•&nbsp;set_Owner&nbsp;–&nbsp;assigns&nbsp;a&nbsp;value&nbsp;to&nbsp;the&nbsp;__petOwnerName&nbsp;field<br>
+&nbsp;<br>
+Accessor&nbsp;methods:<br>
+•&nbsp;get_Name&nbsp;–&nbsp;returns&nbsp;the&nbsp;value&nbsp;of&nbsp;__petName&nbsp;field<br>
+•&nbsp;get_Species&nbsp;–&nbsp;returns&nbsp;the&nbsp;value&nbsp;of&nbsp;__petSpecies&nbsp;field<br>
+•&nbsp;get_Family_Type&nbsp;–&nbsp;returns&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;__petFamilyType&nbsp;field<br>
+•&nbsp;get_owner&nbsp;–&nbsp;returns&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;__petOwnerName&nbsp;field<br>
+&nbsp;<br>
+Also&nbsp;create&nbsp;a&nbsp;__str__(&nbsp;)&nbsp;method&nbsp;to&nbsp;call&nbsp;the&nbsp;accessor&nbsp;methods&nbsp;and&nbsp;output&nbsp;the&nbsp;<br>
+data&nbsp;fields&nbsp;in&nbsp;the&nbsp;<a href="builtins.html#object">object</a>.<br>
+&nbsp;<br>
+Please&nbsp;store&nbsp;the&nbsp;class&nbsp;definition&nbsp;in&nbsp;a&nbsp;different&nbsp;file&nbsp;from&nbsp;the&nbsp;application&nbsp;<br>
+program.</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="builtins.html#object">builtins.object</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="petClass.html#Pet">Pet</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Pet">class <strong>Pet</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#Pet">Pet</a>(name,&nbsp;species,&nbsp;familyType,&nbsp;ownerName)<br>
+&nbsp;<br>
+The&nbsp;<a href="#Pet">Pet</a>&nbsp;class&nbsp;represents&nbsp;a&nbsp;pet&nbsp;with&nbsp;attributes&nbsp;such&nbsp;as&nbsp;name,&nbsp;species,&nbsp;<br>
+family&nbsp;type,&nbsp;and&nbsp;owner's&nbsp;name.&nbsp;It&nbsp;includes&nbsp;methods&nbsp;to&nbsp;modify&nbsp;and&nbsp;access&nbsp;<br>
+these&nbsp;attributes,&nbsp;as&nbsp;well&nbsp;as&nbsp;a&nbsp;method&nbsp;to&nbsp;return&nbsp;a&nbsp;string&nbsp;representation&nbsp;<br>
+of&nbsp;the&nbsp;pet's&nbsp;details.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Pet-__init__"><strong>__init__</strong></a>(self, name, species, familyType, ownerName)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<dl><dt><a name="Pet-__str__"><strong>__str__</strong></a>(self)</dt><dd><tt>Return&nbsp;str(self).</tt></dd></dl>
+
+<dl><dt><a name="Pet-getFamilyType"><strong>getFamilyType</strong></a>(self)</dt><dd><tt>#&nbsp;getFamilyType</tt></dd></dl>
+
+<dl><dt><a name="Pet-getName"><strong>getName</strong></a>(self)</dt><dd><tt>#&nbsp;create&nbsp;accessor&nbsp;methods&nbsp;(getters)<br>
+#&nbsp;getName</tt></dd></dl>
+
+<dl><dt><a name="Pet-getOwner"><strong>getOwner</strong></a>(self)</dt><dd><tt>#&nbsp;getOwner</tt></dd></dl>
+
+<dl><dt><a name="Pet-getSpecies"><strong>getSpecies</strong></a>(self)</dt><dd><tt>#&nbsp;getSpecies</tt></dd></dl>
+
+<dl><dt><a name="Pet-setFamilyType"><strong>setFamilyType</strong></a>(self, familyType)</dt><dd><tt>#&nbsp;setFamilyType</tt></dd></dl>
+
+<dl><dt><a name="Pet-setName"><strong>setName</strong></a>(self, name)</dt><dd><tt>#&nbsp;create&nbsp;mutator&nbsp;methods&nbsp;(setters)<br>
+#&nbsp;setName</tt></dd></dl>
+
+<dl><dt><a name="Pet-setOwner"><strong>setOwner</strong></a>(self, ownerName)</dt><dd><tt>#&nbsp;setOwner</tt></dd></dl>
+
+<dl><dt><a name="Pet-setSpecies"><strong>setSpecies</strong></a>(self, species)</dt><dd><tt>#&nbsp;setSpecies</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table></td></tr></table>
+</body></html>
